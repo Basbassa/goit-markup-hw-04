@@ -334,3 +334,9 @@ a {
   margin-right: 10px;
   fill: currentColor;
 }
+
+.lorem {
+  max-width: 270px;
+  margin-bottom: 30px;
+}
+
