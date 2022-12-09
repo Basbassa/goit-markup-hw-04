@@ -43,6 +43,7 @@ a {
   --color-header-mail-phone: rgb(117, 117, 117);
   --color-nav-border: #ccc;
   --color-social-icons: rgba(175, 177, 184, 1);
+  --color-social-icons-footer-backg: rgba(255, 255, 255, 0.1);
 }
 
 .nav-border-bottom {
@@ -402,7 +403,9 @@ a {
   align-items: center;
 }
 
-.clients-icons :hover {
+.clients-icons :hover,
+.clients-icons :focus,
+.clients-icons:active {
   fill: var(--color-mainblue);
 }
 
@@ -426,9 +429,9 @@ a {
   margin-left: 70px;
 }
 
-.try :hover {
+.social-icons-footer :hover {
   fill: var(--color-white);
-  background-color: var(--color-mainblue);
+  background-color: var(--color-social-icons-footer-backg);
   border-radius: 50%;
   cursor: pointer;
 }
