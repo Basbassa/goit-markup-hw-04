@@ -347,6 +347,7 @@ a {
  gap: 30px;
 }
 
+
 .social-icons {
   max-width: 20px;
   max-height: 20px;
@@ -356,6 +357,21 @@ a {
 
 .social-icons :hover  { 
 fill: var(--color-mainblue);
+}
+
+.h2-fotter {
+  color: var(--color-white);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 0.8;
+  letter-spacing: 0, 3em;
+}
+
+.social-div-footer {
+  display: flex;
+  gap: 10px;
+  fill: var(--color-white);
+  margin-top: 20px;
 }
 
 .section-clients {
@@ -376,9 +392,11 @@ justify-content: space-around;
  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.14); 
 }
 
+
 .box-shadow-portf :hover {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.06);
 }
+
 
 .box-shadow-butt-portf :hover {
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
