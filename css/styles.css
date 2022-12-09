@@ -341,11 +341,13 @@ a {
   margin-bottom: 30px;
 }
 
-.social-div {
+.social-ull-team {
+
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  gap: 30px;
+  gap: 5px;
+  
 }
 
 .social-icons {
@@ -354,6 +356,8 @@ a {
   fill: var(--color-social-icons);
   margin-bottom: 30px;
 }
+
+
 
 /*
 .social-icons :hover {
