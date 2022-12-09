@@ -429,9 +429,24 @@ a {
   margin-left: 70px;
 }
 
-.social-icons-footer :hover {
+li:hover .social-icons-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   fill: var(--color-white);
   background-color: var(--color-social-icons-footer-backg);
   border-radius: 50%;
   cursor: pointer;
 }
+
+/*
+.social-icons-footer :hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: var(--color-white);
+  background-color: var(--color-social-icons-footer-backg);
+  border-radius: 50%;
+  cursor: pointer;
+}
+*/
