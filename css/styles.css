@@ -42,6 +42,7 @@ a {
   --color-nav-ul-a: rgb(33, 33, 33);
   --color-header-mail-phone: rgb(117, 117, 117);
   --color-nav-border: #ccc;
+  --color-social-icons: rgba(175, 177, 184, 1);
 }
 
 .nav-border-bottom {
@@ -350,16 +351,18 @@ a {
 .social-icons {
   max-width: 20px;
   max-height: 20px;
-  fill: rgba(175, 177, 184, 1);
+  fill: var(--color-social-icons);
   margin-bottom: 30px;
 }
 
+/*
 .social-icons :hover {
   fill: var(--color-white);
   background-color: var(--color-mainblue);
   border-radius: 50%;
   cursor: pointer;
 }
+*/
 
 .h2-fotter {
   color: var(--color-white);
@@ -386,8 +389,21 @@ a {
 }
 
 .clients {
+  fill: var(--color-social-icons);
   display: flex;
   justify-content: space-around;
+  
+}
+
+.clients-icons {
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--color-social-icons);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .box-shadow-main {
@@ -408,4 +424,11 @@ a {
 
 .second-half-footer {
   margin-left: 70px;
+}
+
+.try :hover {
+  fill: var(--color-white);
+  background-color: var(--color-mainblue);
+  border-radius: 50%;
+  cursor: pointer;
 }
