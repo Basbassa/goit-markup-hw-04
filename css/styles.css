@@ -342,12 +342,10 @@ a {
 }
 
 .social-ull-team {
-
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 5px;
-  
 }
 
 .social-icons {
@@ -357,16 +355,12 @@ a {
   margin-bottom: 30px;
 }
 
-
-
-/*
 .social-icons :hover {
   fill: var(--color-white);
-  background-color: var(--color-mainblue);
+  background-color: red;
   border-radius: 50%;
   cursor: pointer;
 }
-*/
 
 .h2-fotter {
   color: var(--color-white);
@@ -396,7 +390,6 @@ a {
   fill: var(--color-social-icons);
   display: flex;
   justify-content: space-around;
-  
 }
 
 .clients-icons {
@@ -407,7 +400,10 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
 
+.clients-icons :hover {
+  fill: var(--color-mainblue);
 }
 
 .box-shadow-main {
