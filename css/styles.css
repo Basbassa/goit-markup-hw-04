@@ -136,7 +136,7 @@ a {
   background-color: var(--color-mainblue);
   cursor: pointer;
   color: var(--color-white);
-  box-shadow: 0px 8px 1px 0px rgba(0, 0, 0, 0.14)
+  box-shadow: 0px 8px 1px 0px rgba(0, 0, 0, 0.14);
 }
 
 /*
@@ -416,6 +416,7 @@ a {
 .clients-icons:focus,
 .clients-icons:active {
   fill: var(--color-mainblue);
+  border-color: var(--color-mainblue);
 }
 
 .box-shadow-main {
@@ -449,6 +450,7 @@ a {
   fill: var(--color-white);
 }
 
-.x:hover {
+.x:hover,
+.x:focus {
   background-color: var(--color-mainblue);
 }
