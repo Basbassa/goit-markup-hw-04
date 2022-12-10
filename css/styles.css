@@ -354,13 +354,12 @@ a {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  cursor: pointer;
   width: 20px;
   height: 20px;
+  cursor: pointer;
   fill: var(--color-social-icons);
   margin-bottom: 30px;
 }
-
 
 .social-icons :hover {
   fill: var(--color-white);
@@ -443,32 +442,9 @@ a {
   cursor: pointer;
   width: 44px;
   height: 44px;
+  fill: var(--color-white);
 }
 
 .x :hover {
   background-color: var(--color-mainblue);
 }
-
-/*
-.social-icons-footer  {
- display: flex;
-  justify-content: center;
-  align-items: center; 
-  border-radius: 50%;
-  cursor: pointer;
-  width: 44px;
-  height: 44px;
-}
-*/
-
-/*
-.social-icons-footer :hover {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  fill: var(--color-white);
-  background-color: var(--color-mainblue);
-  border-radius: 50%;
-  cursor: pointer;
-}
-*/
