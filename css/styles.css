@@ -429,15 +429,31 @@ a {
   margin-left: 70px;
 }
 
-li:hover .social-icons-footer {
+.x {
   display: flex;
   justify-content: center;
   align-items: center;
-  fill: var(--color-white);
-  background-color: var(--color-social-icons-footer-backg);
   border-radius: 50%;
   cursor: pointer;
+  width: 44px;
+  height: 44px;
 }
+
+.x :hover {
+  background-color: var(--color-mainblue);
+}
+
+/*
+.social-icons-footer  {
+ display: flex;
+  justify-content: center;
+  align-items: center; 
+  border-radius: 50%;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+}
+*/
 
 /*
 .social-icons-footer :hover {
@@ -445,7 +461,7 @@ li:hover .social-icons-footer {
   justify-content: center;
   align-items: center;
   fill: var(--color-white);
-  background-color: var(--color-social-icons-footer-backg);
+  background-color: var(--color-mainblue);
   border-radius: 50%;
   cursor: pointer;
 }
