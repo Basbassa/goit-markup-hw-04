@@ -354,14 +354,14 @@ a {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  width: 20px;
-  height: 20px;
+  width: 44px;
+  height: 44px;
   cursor: pointer;
   fill: var(--color-social-icons);
   margin-bottom: 30px;
 }
 
-.social-icons :hover {
+.social-icons:hover {
   fill: var(--color-white);
   background-color: var(--color-mainblue);
   border-radius: 50%;
@@ -445,6 +445,6 @@ a {
   fill: var(--color-white);
 }
 
-.x :hover {
+.x:hover {
   background-color: var(--color-mainblue);
 }
