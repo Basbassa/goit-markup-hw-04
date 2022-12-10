@@ -350,15 +350,21 @@ a {
 }
 
 .social-icons {
-  max-width: 20px;
-  max-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
   fill: var(--color-social-icons);
   margin-bottom: 30px;
 }
 
+
 .social-icons :hover {
   fill: var(--color-white);
-  background-color: red;
+  background-color: var(--color-mainblue);
   border-radius: 50%;
   cursor: pointer;
 }
