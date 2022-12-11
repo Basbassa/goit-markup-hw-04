@@ -435,7 +435,7 @@ a {
   margin-left: 70px;
 }
 
-.x {
+.footer-sm-icons {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -446,7 +446,7 @@ a {
   fill: var(--color-white);
 }
 
-.x:hover,
-.x:focus {
+.footer-sm-icons:hover,
+.footer-sm-icons:focus {
   background-color: var(--color-mainblue);
 }
