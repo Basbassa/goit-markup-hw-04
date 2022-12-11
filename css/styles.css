@@ -52,11 +52,16 @@ a {
 }
 
 .box-h1 {
-  background-image: url("../images/main-pic.jpg"),
+  max-width: 1600px;
+  background-image: url("../images/banners/main-banner.jpg"),
     linear-gradient(90deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 0%);
+  background-size: 1600px;
+  /* background-repeat: no-repeat; */
+  background-position: center;
   background-color: var(--color-h1);
   color: var(--color-white);
   text-align: center;
+  margin: 0 auto;
 }
 
 .nav-flex {
